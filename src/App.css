@@ -5,7 +5,7 @@ body {
 
 header {
   height:70px;
-  box-shadow:0px 10px 10px -10px rgba(0,0,0,0.1)
+  box-shadow:0px 10px 10px -10px rgba(0,0,0,0.1);
 }
 
 .logo {
@@ -18,7 +18,7 @@ header {
   margin-top:22px;
 }
 
-.hero {
+.photo-div {
   margin:96px auto;
   height:432px;
   width:795.25px;
