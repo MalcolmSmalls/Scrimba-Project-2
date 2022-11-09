@@ -37,5 +37,71 @@ header {
 
 .header-bottom p {
   font-size:16px;
-  width:23%;
+  width:30%;
+}
+
+.photo-container {
+  height:235px;
+  width:176px;
+  background-image:url('../public/x.jpg');
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  border-radius:9px;
+}
+
+.card-container {
+  margin-left:366px;
+  margin-top:49px;
+  height:302px;
+  width:177px;
+  font-size:12px;
+
+}
+
+.reviews {
+  padding-left:2px;
+  color:#918E9B;
+}
+
+.star {
+  color:#FE395C;
+  padding-right:3px;
+}
+
+.reviews i {
+  font-size:2px;
+  vertical-align:middle;
+}
+
+.summary-container{
+  padding-top:8px;
+}
+
+.title {
+  font-size:12px;
+  font-weight:400;
+  margin-top:4px;
+  margin-bottom:0px;
+}
+
+.price {
+  margin-top:5px;
+}
+
+.price span {
+  font-weight:700;
+}
+
+.card-btn {
+  margin-left:6px;
+  margin-top:6px;
+  padding:2px;
+  border-radius:2px;
+  height:25px;
+  width:71px;
+  font-size:10.24px;
+  color:222222;
+  text-transform:uppercase;
+  background-color:white;
 }
