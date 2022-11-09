@@ -6,6 +6,9 @@ function Header(){
             <div className = 'top-bar'>
                 <div className = "logo"></div>
             </div>
+            <div className = "hero">
+                
+            </div>
         </header>
     )
 }
