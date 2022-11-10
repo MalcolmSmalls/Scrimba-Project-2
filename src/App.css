@@ -43,7 +43,6 @@ header {
 .photo-container {
   height:235px;
   width:176px;
-  background-image:url('../public/x.jpg');
   background-size:cover;
   background-position:center;
   background-repeat:no-repeat;
