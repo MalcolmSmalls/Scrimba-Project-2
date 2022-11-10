@@ -5,6 +5,7 @@ function Header(){
         <header>
             <div className = 'top-bar'>
                 <div className = "logo"></div>
+                
             </div>
 
         </header>
