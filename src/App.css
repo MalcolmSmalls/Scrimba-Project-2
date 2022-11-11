@@ -50,7 +50,7 @@ header {
 }
 
 .card-container {
-  margin-left:366px;
+  /* margin-left:366px; */
   margin-top:49px;
   height:302px;
   width:177px;
@@ -103,4 +103,11 @@ header {
   color:222222;
   text-transform:uppercase;
   background-color:white;
+}
+
+.cards {
+  display:flex;
+  flex: 0 0 auto;
+  margin-left:366px;
+  gap:10px;
 }
