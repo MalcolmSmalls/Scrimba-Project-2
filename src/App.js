@@ -12,7 +12,8 @@ function App() {
             rating = {item.stats.rating} reviewCount = {item.stats.reviewCount} 
             country = {item.location} 
             title = {item.title} 
-            price = {item.price} />
+            price = {item.price} 
+            openSpots = {item.openSpots} />
     )
   })
 

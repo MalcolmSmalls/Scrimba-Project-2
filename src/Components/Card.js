@@ -1,10 +1,11 @@
 import React, { Composite } from "react"
+import data from "../data.js"
 
 function Card(props){
     return (
         <div className = "card-container">
             <div className = "photo-container" style={{ backgroundImage: `url('${props.img}')`}}>
-                <button className = "card-btn">Sold Out</button>
+                {props.openSpots === 0 && <button className = "card-btn">Sold Out</button>}
             </div>
             <div className = "summary-container">
                 <span className = "star"><i className="fa-solid fa-star"></i></span>
